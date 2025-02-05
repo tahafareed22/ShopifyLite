@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fake Store Recommendations</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Find Your Perfect Product</h1>
+    <form id="productForm">
+      <label for="category">Choose a category:</label>
+      <select id="category" name="category">
+        <option value="all">All Categories</option>
+        <option value="electronics">Electronics</option>
+        <option value="jewelery">Jewelry</option>
+        <option value="men's clothing">Men's Clothing</option>
+        <option value="women's clothing">Women's Clothing</option>
+      </select>
+
+      <label for="budget">What is your budget range?</label>
+      <select id="budget" name="budget">
+        <option value="low">Under $50</option>
+        <option value="medium">$50 - $100</option>
+        <option value="high">Over $100</option>
+      </select>
+
+      <button type="submit">Get Recommendations</button>
+    </form>
+
+    <div id="recommendations" class="recommendations">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

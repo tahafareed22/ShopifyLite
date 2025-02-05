@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  select, button {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for the recommendations container */
+.recommendations {
+  margin-top: 20px;
+  max-height: 300px; /* Limit the height of the recommendations section */
+  overflow-y: auto; /* Enable vertical scrolling if content overflows */
+  border: 1px solid #ddd; /* Optional: add a border for better visibility */
+  padding: 10px;
+  background-color: #f9f9f9; /* Optional: background for better contrast */
+  border-radius: 4px;
+}
+
+/* Styling for individual recommendation items */
+.recommendations ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0;
+  margin: 0;
+}
+
+.recommendations li {
+  margin-bottom: 15px; /* Add spacing between items */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Space between image and text */
+}
+
+.recommendations img {
+  max-width: 60px; /* Limit image size */
+  max-height: 60px;
+  border-radius: 4px;
+}
+
+.recommendations strong {
+  font-size: 16px;
+  color: #333;
+}
+
+.recommendations p {
+  margin: 0;
+}
