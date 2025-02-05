@@ -33,7 +33,8 @@ ShopifyLite/
 │
 │── backend/
 │   ├── app.py          
-│   ├── scraper.py      
+│   ├── scraper.py
+│   ├── recommendation.py   
 │
 └── README.md           
 ```
